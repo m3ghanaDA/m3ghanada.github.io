@@ -52,10 +52,10 @@
 							<article class="post featured">
 								<header class="major">
 									<span class="date">September 2024</span>
-									<h2>Sentiment Analysis<br />(MSc Dissertation)</h2>
-									<p>Engineered an automated Fake News Detection framework that achieved 99.9% classification accuracy and a 100% recall rate on a dataset of ~45,000 articles by building a Bidirectional LSTM (BiLSTM) deep learning model in TensorFlow to capture dual-direction semantic dependencies.<br>
-									Optimized model training efficiency and predictive power by designing a robust NLP preprocessing pipeline (deduplication, tokenization, lemmatization) and leveraging Mutual Information (MI) scoring to extract and rank the top 15 linguistic, structural, and POS features.<br>
-									Benchmarked 5 ML/DL architectures (including Naive Bayes, SVM, Random Forest, and XGBoost) and integrated Sentiment Analysis (polarity/subjectivity profiling) to evaluate how emotional intensity scales predictive performance alongside traditional word vectors.</p>
+									<h2>Sentiment Analysis (MSc Dissertation)</h2>
+									<p>Engineered an automated Fake News Detection framework that achieved 99.9% classification accuracy and a 100% recall rate on a dataset of ~45,000 articles by building a Bidirectional LSTM (BiLSTM) deep learning model in TensorFlow to capture dual-direction semantic dependencies.</p>
+									<p>Optimized model training efficiency and predictive power by designing a robust NLP preprocessing pipeline (deduplication, tokenization, lemmatization) and leveraging Mutual Information (MI) scoring to extract and rank the top 15 linguistic, structural, and POS features.</p>
+									<p>Benchmarked 5 ML/DL architectures (including Naive Bayes, SVM, Random Forest, and XGBoost) and integrated Sentiment Analysis (polarity/subjectivity profiling) to evaluate how emotional intensity scales predictive performance alongside traditional word vectors.</p>
 								</header>
 								<img src="images/fakeNews.png" class="image fit" alt="" />
 								<ul class="actions special">
@@ -79,23 +79,17 @@
 							<section class="posts">
 								<article>
 									<header>
-										<span class="date">January 2024</span>
-										<h2>Student Performance End-to-End Prediction System</h2>
+										<span class="date">April 2024</span>
+										<h2>Multi-Model Toxic Comment Classification</h2>
 									</header>
 									<img src="images/performancePredictor.png" class="image fit" alt="" />
-									<p>End-to-End ML Pipeline Architecture: Engineered a modular, production-grade Machine Learning pipeline using Object-Oriented Programming (OOP) in Python to predict student performance metrics, utilizing custom logging and context-aware exception handling to ensure enterprise-level code reliability and zero-downtime debugging.<br>
-									Advanced Data Engineering & Optimization: Developed a robust automated preprocessing pipeline using Scikit-Learn’s ColumnTransformer to handle imputation and feature scaling, implementing cross-validated hyperparameter tuning via GridSearchCV across a suite of algorithms (including XGBoost and CatBoost) to dynamically select and serialize the highest-performing model based on R Squared score.<br>
-									Cloud Deployment & CI/CD Automation: Built and served a real-time inference pipeline integrated with a custom Flask web application, automating cloud deployment on AWS Elastic Beanstalk via an AWS CodePipeline continuous integration (CI/CD) workflow triggered directly by GitHub version control.</p>
+									<p>Engineered a Multi-Model NLP Pipeline to classify online text toxicity, overcoming a severe 87% class imbalance by implementing a strategic random undersampling workflow that optimized minority class distribution to 18.5%.</p>
+									<p>Developed and Fine-Tuned Generative and Discriminative Models, including Multinomial Naive Bayes, Logistic Regression, and Linear SVM architectures, utilizing 5-fold Stratified K-Fold cross-validation and hyperparameter grid searches.</p>
+									<p>Boosted Toxicity Classification Performance by implementing balanced class-weight constraints and an intensive text preprocessing pipeline (regex normalization, ASCII filtering, and NLTK lemmatization), maximizing True Positive detection rates.</p>
 									<ul class="actions special">
+    								
     								<li>
-        								<a href="https://student-performance-predictor-xrs55hlie65vmkkcvynjct.streamlit.app/"
-           									target="_blank"
-           									class="button primary icon solid fa-play">
-           				 					Try Live ML App
-        								</a>
-    								</li>
-    								<li>
-        								<a href="https://github.com/m3ghanaDA/student-performance-predictor"
+        								<a href="https://github.com/m3ghanaDA/Toxic-Comment-Detection-Using-Generative-and-Discriminative-Machine-Learning-Models"
            									target="_blank"
            									class="button icon brands fa-github">
             								Explore Codebase
